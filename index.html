@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="ASOM Studio - AI-powered creative solutions and digital innovation">
+    <meta name="keywords" content="AI, creative studio, digital solutions, machine learning, design">
+    <title>ASOM Studio - AI Creative Solutions</title>
+    
+    <!-- Preconnect to external domains for faster loading -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="style.css">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <nav class="nav container">
+            <div class="nav-brand">
+                <a href="#home" class="logo">ASOM</a>
+            </div>
+            <ul class="nav-menu" id="nav-menu">
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#services" class="nav-link">Services</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <div class="nav-toggle" id="nav-toggle">
+                <span class="nav-toggle-line"></span>
+                <span class="nav-toggle-line"></span>
+                <span class="nav-toggle-line"></span>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section id="home" class="hero">
+            <div class="container">
+                <div class="hero-content">
+                    <h1 class="hero-title">
+                        <span class="typing-text">Crafting AI-Powered</span>
+                        <br>Creative Solutions
+                    </h1>
+                    <p class="hero-description">
+                        We blend cutting-edge artificial intelligence with human creativity 
+                        to deliver exceptional digital experiences that transform businesses 
+                        and inspire innovation.
+                    </p>
+                    <div class="hero-actions">
+                        <a href="#contact" class="btn btn-primary">Start Your Project</a>
+                        <a href="#services" class="btn btn-secondary">Explore Services</a>
+                    </div>
+                </div>
+                <div class="hero-visual">
+                    <div class="hero-graphic">
+                        <div class="floating-card card-1">
+                            <div class="card-icon">🤖</div>
+                            <div class="card-text">AI Solutions</div>
+                        </div>
+                        <div class="floating-card card-2">
+                            <div class="card-icon">🎨</div>
+                            <div class="card-text">Creative Design</div>
+                        </div>
+                        <div class="floating-card card-3">
+                            <div class="card-icon">⚡</div>
+                            <div class="card-text">Innovation</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Services Section -->
+        <section id="services" class="services">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Our Services</h2>
+                    <p class="section-description">
+                        Comprehensive AI-driven solutions tailored to your unique needs
+                    </p>
+                </div>
+                <div class="services-grid">
+                    <div class="service-card" data-aos="fade-up" data-aos-delay="100">
+                        <div class="service-icon">
+                            <svg width="48" height="48" viewBox="0 0 48 48" fill="none">
+                                <path d="M24 4L44 14V34L24 44L4 34V14L24 4Z" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/>
+                                <path d="M24 4V44" stroke="currentColor" stroke-width="2"/>
+                                <path d="M4 14L24 24L44 14" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/>
+                            </svg>
+                        </div>
+                        <h3 class="service-title">AI Development</h3>
+                        <p class="service-description">
+                            Custom AI solutions, machine learning models, and intelligent automation 
+                            systems designed to optimize your business processes.
+                        </p>
+                        <ul class="service-features">
+                            <li>Machine Learning Models</li>
+                            <li>Natural Language Processing</li>
+                            <li>Computer Vision</li>
+                        </ul>
+                    </div>
+
+                    <div class="service-card" data-aos="fade-up" data-aos-delay="200">
+                        <div class="service-icon">
+                            <svg width="48" height="48" viewBox="0 0 48 48" fill="none">
+                                <rect x="4" y="8" width="40" height="32" rx="4" stroke="currentColor" stroke-width="2"/>
+                                <path d="M12 20H36" stroke="currentColor" stroke-width="2"/>
+                                <path d="M12 28H28" stroke="currentColor" stroke-width="2"/>
+                                <circle cx="36" cy="28" r="4" stroke="currentColor" stroke-width="2"/>
+                            </svg>
+                        </div>
+                        <h3 class="service-title">Web Development</h3>
+                        <p class="service-description">
+                            Modern, responsive websites and web applications built with 
+                            the latest technologies and best practices.
+                        </p>
+                        <ul class="service-features">
+                            <li>Responsive Design</li>
+                            <li>Performance Optimization</li>
+                            <li>SEO Implementation</li>
+                        </ul>
+                    </div>
+
+                    <div class="service-card" data-aos="fade-up" data-aos-delay="300">
+                        <div class="service-icon">
+                            <svg width="48" height="48" viewBox="0 0 48 48" fill="none">
+                                <circle cx="24" cy="24" r="20" stroke="currentColor" stroke-width="2"/>
+                                <path d="M24 8V24L32 32" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                            </svg>
+                        </div>
+                        <h3 class="service-title">Digital Strategy</h3>
+                        <p class="service-description">
+                            Strategic consulting to help businesses leverage AI and digital 
+                            technologies for competitive advantage.
+                        </p>
+                        <ul class="service-features">
+                            <li>AI Strategy Planning</li>
+                            <li>Digital Transformation</li>
+                            <li>Technology Consulting</li>
+                        </ul>
+                    </div>
+
+                    <div class="service-card" data-aos="fade-up" data-aos-delay="400">
+                        <div class="service-icon">
+                            <svg width="48" height="48" viewBox="0 0 48 48" fill="none">
+                                <path d="M8 18H40V38C40 39.1046 39.1046 40 38 40H10C8.89543 40 8 39.1046 8 38V18Z" stroke="currentColor" stroke-width="2"/>
+                                <path d="M18 18V12C18 9.79086 19.7909 8 22 8H26C28.2091 8 30 9.79086 30 12V18" stroke="currentColor" stroke-width="2"/>
+                                <circle cx="24" cy="28" r="3" stroke="currentColor" stroke-width="2"/>
+                            </svg>
+                        </div>
+                        <h3 class="service-title">Brand Identity</h3>
+                        <p class="service-description">
+                            Comprehensive brand development including logo design, visual identity, 
+                            and brand strategy to establish your market presence.
+                        </p>
+                        <ul class="service-features">
+                            <li>Logo & Visual Identity</li>
+                            <li>Brand Guidelines</li>
+                            <li>Marketing Materials</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="about">
+            <div class="container">
+                <div class="about-content">
+                    <div class="about-text">
+                        <h2 class="section-title">About ASOM Studio</h2>
+                        <p class="about-description">
+                            At ASOM Studio, we believe in the transformative power of artificial intelligence 
+                            when combined with human creativity. Our team of experts specializes in creating 
+                            innovative digital solutions that push the boundaries of what's possible.
+                        </p>
+                        <p class="about-description">
+                            Founded on principles of excellence, innovation, and client-first approach, 
+                            we've helped businesses across industries harness the power of AI to achieve 
+                            remarkable results and stay ahead of the competition.
+                        </p>
+                        <div class="about-stats">
+                            <div class="stat">
+                                <div class="stat-number">50+</div>
+                                <div class="stat-label">Projects Completed</div>
+                            </div>
+                            <div class="stat">
+                                <div class="stat-number">98%</div>
+                                <div class="stat-label">Client Satisfaction</div>
+                            </div>
+                            <div class="stat">
+                                <div class="stat-number">24/7</div>
+                                <div class="stat-label">Support Available</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="about-visual">
+                        <div class="about-image-placeholder">
+                            <div class="tech-stack">
+                                <div class="tech-item">AI/ML</div>
+                                <div class="tech-item">Python</div>
+                                <div class="tech-item">JavaScript</div>
+                                <div class="tech-item">React</div>
+                                <div class="tech-item">Node.js</div>
+                                <div class="tech-item">TensorFlow</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="contact">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Let's Work Together</h2>
+                    <p class="section-description">
+                        Ready to transform your business with AI? Get in touch and let's discuss your project.
+                    </p>
+                </div>
+                <div class="contact-content">
+                    <div class="contact-info">
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+                                    <path d="M4 4H20C21.1 4 22 4.9 22 6V18C22 19.1 21.1 20 20 20H4C2.9 20 2 19.1 2 18V6C2 4.9 2.9 4 4 4Z" stroke="currentColor" stroke-width="2"/>
+                                    <polyline points="22,6 12,13 2,6" stroke="currentColor" stroke-width="2"/>
+                                </svg>
+                            </div>
+                            <div class="contact-details">
+                                <h4>Email</h4>
+                                <p>alberto@asomstudio.ai</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+                                    <path d="M21 10C21 17 12 23 12 23S3 17 3 10C3 5.02944 7.02944 1 12 1C16.9706 1 21 5.02944 21 10Z" stroke="currentColor" stroke-width="2"/>
+                                    <circle cx="12" cy="10" r="3" stroke="currentColor" stroke-width="2"/>
+                                </svg>
+                            </div>
+                            <div class="contact-details">
+                                <h4>Location</h4>
+                                <p>Global Remote Team</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+                                    <circle cx="12" cy="12" r="10" stroke="currentColor" stroke-width="2"/>
+                                    <polyline points="12,6 12,12 16,14" stroke="currentColor" stroke-width="2"/>
+                                </svg>
+                            </div>
+                            <div class="contact-details">
+                                <h4>Response Time</h4>
+                                <p>Within 24 hours</p>
+                            </div>
+                        </div>
+                    </div>
+                    <form class="contact-form" id="contact-form" action="contact.php" method="POST">
+                        <div class="form-group">
+                            <label for="name">Full Name</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email Address</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="company">Company (Optional)</label>
+                            <input type="text" id="company" name="company">
+                        </div>
+                        <div class="form-group">
+                            <label for="service">Service Interest</label>
+                            <select id="service" name="service" required>
+                                <option value="">Select a service</option>
+                                <option value="ai-development">AI Development</option>
+                                <option value="web-development">Web Development</option>
+                                <option value="digital-strategy">Digital Strategy</option>
+                                <option value="brand-identity">Brand Identity</option>
+                                <option value="consultation">General Consultation</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Project Details</label>
+                            <textarea id="message" name="message" rows="5" required placeholder="Tell us about your project..."></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-full">Send Message</button>
+                        <div class="form-message" id="form-message"></div>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <div class="logo">ASOM</div>
+                    <p>AI-powered creative solutions for the future</p>
+                </div>
+                <div class="footer-links">
+                    <div class="footer-section">
+                        <h4>Services</h4>
+                        <ul>
+                            <li><a href="#services">AI Development</a></li>
+                            <li><a href="#services">Web Development</a></li>
+                            <li><a href="#services">Digital Strategy</a></li>
+                            <li><a href="#services">Brand Identity</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-section">
+                        <h4>Company</h4>
+                        <ul>
+                            <li><a href="#about">About</a></li>
+                            <li><a href="#contact">Contact</a></li>
+                            <li><a href="#services">Portfolio</a></li>
+                            <li><a href="#contact">Careers</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-section">
+                        <h4>Connect</h4>
+                        <div class="social-links">
+                            <a href="#" class="social-link">LinkedIn</a>
+                            <a href="#" class="social-link">Twitter</a>
+                            <a href="#" class="social-link">GitHub</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 ASOM Studio. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- WhatsApp Floating Button -->
+    <a href="https://wa.me/1234567890?text=Hi!%20I'm%20interested%20in%20ASOM%20Studio's%20services" 
+       class="whatsapp-float" target="_blank" aria-label="Contact us on WhatsApp">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+            <path d="M17.472 14.382C17.367 14.382 17.188 14.235 16.879 13.943C16.571 13.651 16.321 13.382 16.205 13.295C16.089 13.207 15.967 13.164 15.84 13.164C15.644 13.164 15.487 13.245 15.371 13.409C15.254 13.573 14.909 14.014 14.814 14.149C14.719 14.284 14.624 14.299 14.457 14.225C14.291 14.15 13.702 13.947 12.998 13.312C12.452 12.823 12.085 12.229 11.99 12.063C11.894 11.897 11.98 11.806 12.054 11.732C12.12 11.666 12.201 11.563 12.275 11.467C12.349 11.371 12.378 11.304 12.437 11.193C12.496 11.082 12.467 10.986 12.423 10.912C12.378 10.838 12.085 10.135 11.951 9.803C11.817 9.471 11.683 9.522 11.564 9.515C11.445 9.508 11.327 9.508 11.208 9.508C11.089 9.508 10.896 9.552 10.728 9.718C10.56 9.884 10.055 10.349 10.055 11.052C10.055 11.755 10.567 12.429 10.641 12.548C10.715 12.667 11.572 14.116 12.998 14.706C13.35 14.851 13.628 14.935 13.845 14.996C14.197 15.106 14.52 15.091 14.776 15.047C15.061 14.996 15.619 14.721 15.752 14.417C15.886 14.113 15.886 13.853 15.841 13.779C15.797 13.705 15.678 13.66 15.502 13.571L17.472 14.382ZM12.04 21.814C6.498 21.814 2 17.316 2 11.774C2 6.232 6.498 1.734 12.04 1.734C17.582 1.734 22.08 6.232 22.08 11.774C22.08 17.316 17.582 21.814 12.04 21.814ZM20.551 11.774C20.551 7.065 16.748 3.262 12.04 3.262C7.331 3.262 3.528 7.065 3.528 11.774C3.528 16.483 7.331 20.286 12.04 20.286C16.748 20.286 20.551 16.483 20.551 11.774Z" fill="currentColor"/>
+        </svg>
+    </a>
+
+    <!-- Scripts -->
+    <script src="script.js"></script>
+</body>
+</html> 
