@@ -25,7 +25,7 @@
   <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
 
   <!-- Main CSS File -->
-  <link href="assets/css/main.css" rel="stylesheet">
+  <link href="assets/css/main.css?v=1.0" rel="stylesheet">
 
   <!-- Custom Contact Form Styles -->
   <style>
@@ -65,7 +65,7 @@
       color: #000;
     }
 
-    .contact .email-form {
+    .contact .php-email-form {
       padding: 40px;
       background: #fff;
       border-radius: 10px;
@@ -73,7 +73,7 @@
       height: 100%;
     }
 
-    .contact .email-form .form-control {
+    .contact .php-email-form .form-control {
       margin-bottom: 25px;
       padding: 15px;
       border: 1px solid rgb(227, 218, 204);
@@ -81,12 +81,12 @@
       font-size: 16px;
     }
 
-    .contact .email-form .form-control:focus {
+    .contact .php-email-form .form-control:focus {
       border-color: rgb(217, 119, 87);
       box-shadow: none;
     }
 
-    .contact .email-form button[type="submit"] {
+    .contact .php-email-form button[type="submit"] {
       background: rgb(217, 119, 87);
       border: none;
       color: white;
@@ -98,7 +98,7 @@
       transition: all 0.3s ease;
     }
 
-    .contact .email-form button[type="submit"]:hover {
+    .contact .php-email-form button[type="submit"]:hover {
       background: #c76a4c;
     }
   </style>
@@ -454,7 +454,7 @@
         <div class="row gx-lg-0 gy-4">
 
           <div class="col-lg-8">
-            <form action="https://formspree.io/f/your_unique_id" method="post" class="php-email-form">
+            <form action="forms/contact.php" method="post" class="php-email-form">
               <div class="row gy-4">
 
                 <div class="col-md-6">

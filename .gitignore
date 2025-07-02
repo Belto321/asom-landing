@@ -1,0 +1,2 @@
+# Ignore credentials and local configuration files
+forms/config.php 

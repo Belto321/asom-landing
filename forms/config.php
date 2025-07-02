@@ -5,5 +5,5 @@
 
 // Define your local credentials here.
 // These will be used for local development if server environment variables are not found.
-define('SMTP_USER', 'tu-email@gmail.com');
-define('SMTP_PASSWORD', 'xxxxxxxxxxxxxxxx'); // Tu contraseña de aplicación de 16 dígitos 
+define('SMTP_USER', 'alberto@asomstudio.ai');
+define('SMTP_PASSWORD', 'fxyq aorl mqez wote'); // Tu contraseña de aplicación de 16 dígitos 
